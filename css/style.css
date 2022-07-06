@@ -1,0 +1,195 @@
+ body{
+    font:15px/1.5 arial,helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffff;
+ }
+ .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+ }
+ /* for header*/
+header{
+    background-color: rgba(15, 42, 73, 0.781);
+    color: whitesmoke;
+    padding-top: 20px;
+    border-bottom: 2px solid #e8491d;
+    min-height: 70px;
+ }
+ header a{
+    color:blanchedalmond;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+ }
+ header ul{
+    margin: 0;
+    padding: 0;
+ }
+ header li{
+    float:left;
+    display: inline;
+    padding: 0 10px 0 10px;
+ }
+ header #branding{
+    float: left;
+ }
+ header #branding h1{
+    margin: 0;
+ }
+header nav{
+    margin-top: 10px;
+    float:right
+}
+header .highlight, header .current a{
+    color: goldenrod;
+}
+header a:hover{
+    color: darkgray;
+    font-weight: 40px;
+}
+/*showcase*/
+#showcase{
+    min-height: 400px;
+    background:url('../image/showcase.jpg') no-repeat 0 -300px;
+    text-align: center;
+    color:rgba(60, 196, 178, 0.884);
+}
+#showcase h1{
+    font-size: 50px;
+}
+#showcase p{
+    font-size: 20px;
+    color: black;
+}
+#news_section{
+    padding: 13;
+    color:white;
+    background-color: #35254a;
+}
+#news_section h1{
+    float:left
+}
+#news_section form{
+    float: right;
+    margin-top: 23px;
+}
+#news_section input[type="email"]{
+    padding: 5px;
+    height: 20px;
+    width: 250px;
+    border: none;
+}
+.button{
+    height: 32px;
+    width: 100px;
+    background-color:red;
+    color: #ffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    border: none;
+}
+/*boxes*/
+#boxes{
+    margin-top:30px;
+}
+#boxes .box{
+   float: left;
+   text-align: center;
+   width: 30%;
+   padding-left: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+/*for about*/
+
+#main{
+    background:url('../image/nature.jpg') no-repeat center center / cover;
+    height: 600px;
+}
+article.maim-colum h1{
+    font-size: 30;
+}
+article.main-colum{
+    float: left;
+    width: 60%;
+    padding-left: 10px; 
+}
+/*for sidebar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin: 10px;
+    color: aliceblue;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 10px;
+   
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group1{
+    margin-top: 10px;
+}
+
+@media(max-width: 786px){
+    header #branding, header nav, header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+     } 
+    
+      #showcase h1{
+        margin: 40px;
+      }  
+      #news_section button{
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      #news_section form input[type="email"]{
+        margin: 5px;
+        width: 100%;
+      }
+      #boxes .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+
+      }
+      article .main-colum{
+        float: none;
+        text-align: center;
+        width: 100%;
+    
+     }
+     aside #sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+        
+        
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
